@@ -14,7 +14,10 @@ void main() {
     22001800491,
     7983833659,
     "K.R (P.G) College",
-    "Mathura"
+    "Mathura",
+    "Gayatri tapo Bhumi"
   ];
+  Saurabhdetails.replaceRange(Saurabhdetails.length - 1, Saurabhdetails.length,
+      ["Ram kumar", "Raj kumar"]);
   print(Saurabhdetails);
 }
