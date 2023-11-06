@@ -11,13 +11,16 @@ void main() {
   List Saurabhdetails = [
     "Saurabh Sain",
     "B.A",
-    22001800491,
-    7983833659,
+    // 22001800491,
+    // 7983833659,
     "K.R (P.G) College",
     "Mathura",
     "Gayatri tapo Bhumi"
   ];
-  Saurabhdetails.replaceRange(Saurabhdetails.length - 1, Saurabhdetails.length,
-      ["Ram kumar", "Raj kumar"]);
+  // Saurabhdetails.replaceRange(Saurabhdetails.length - 1, Saurabhdetails.length,["Ram kumar", "Raj kumar"]);
+  // Saurabhdetails.sort();=>Aceinding order
+  // .isEmpty & .isNotEmpty & .clear & .add & addAll(["Ram","Sita"]) & .insert(1,"Ram")
   print(Saurabhdetails);
+  var ss = List.of(Saurabhdetails.reversed);
+  print(ss);
 }
