@@ -7,4 +7,14 @@ void main() {
   // Studentname[0] = "Ram Kumar";
   // print(Studentname[Studentname.length - 2]);
   print(Studentname);
+
+  List Saurabhdetails = [
+    "Saurabh Sain",
+    "B.A",
+    22001800491,
+    7983833659,
+    "K.R (P.G) College",
+    "Mathura"
+  ];
+  print(Saurabhdetails);
 }
