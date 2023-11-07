@@ -33,7 +33,7 @@ void main() {
   var f1 = {1: 'Apple', 2: 'Orange'};
   var f2 = {3: 'Banana'};
   var f3 = {4: 'Mango'};
-  var fruit = {...f1, ...f3};
+  var fruit = {...f1, ...f3, ...f2};
   print(fruit);
 
   var ram = {1: "Ram", 2: "Rahul", 3: "Raven", 4: "Saurabh"};
