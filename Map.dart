@@ -40,4 +40,40 @@ void main() {
   ram.forEach((Hello, value) {
     print("Hello $value");
   });
+
+  // Question Map under map ?
+
+  List Numbers = [
+    {
+      1,
+      3,
+      24,
+      35,
+      25,
+      67,
+      86,
+      45,
+      68,
+      89,
+      13,
+      46,
+      47,
+      57,
+      80,
+      90,
+      70,
+    }
+  ];
+  List Graterthenfifty = [];
+  List Lessthenfifty = [];
+  for (int a = 0; a < Numbers.length; a++) {
+    if (Numbers[a](0) <= 50) {
+      Graterthenfifty.add(Numbers[a](0));
+      print(Graterthenfifty);
+    } else {
+      Lessthenfifty.add(Numbers[a](0));
+      print(Lessthenfifty);
+    }
+  }
+  print(Numbers[0]);
 }
