@@ -23,8 +23,33 @@ void main() {
   //   }
   // }
 
+  // do while loop
+
   int aa = 0;
   do {
     print("Ram");
   } while (aa > 5);
+
+  // Nested for-loop
+
+  for (var i = 1; i < 5; i++) {
+    for (var j = 1; j <= i; j++) {
+      print("$i x $i =${i * j}");
+    }
+    print("-----------");
+  }
+
+  for (var i = 1; i < 6; i++) {
+    for (var j = 1; j <= i; j++) {
+      stdout.write("*");
+    }
+    print("");
+  }
+
+  for (var i = 1; i < 6; i++) {
+    for (var j = 1; j <= i; j++) {
+      stdout.write(i);
+    }
+    print("");
+  }
 }
