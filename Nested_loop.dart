@@ -1,7 +1,7 @@
 void main() {
   // Nested-loop
 
-  int ss = 10;
+  int ss = 0;
   while (ss < 9) {
     print(ss);
     ss++;
