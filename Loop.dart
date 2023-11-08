@@ -35,4 +35,21 @@ void main() {
   }
   print(evenNumbers);
   print(oddNumbers);
+
+  // Loop Question
+
+  List<int> Numbers = [1, 2, 3, 5, 4, 7, 34, 36, 23, 35, 26, 47];
+  List<int> evenNumber = [];
+  List<int> oddNumber = [];
+
+  for (int a = 0; a < Numbers.length; a++) {
+    if (Numbers[a] % 2 == 0) {
+      evenNumber.add(Numbers[a]);
+    } else {
+      oddNumber.add(Numbers[a]);
+    }
+  }
+  print(Numbers);
+  print(evenNumber);
+  print(oddNumber);
 }
