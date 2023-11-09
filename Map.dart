@@ -74,4 +74,17 @@ void main() {
   print(Numbers);
   print(Lessthenfifty);
   print(Graterthenfifty);
+
+//Homework Question
+
+  List<Map> StudentRecord = [
+    {"email": "abc12@gmail1.com", "password": "12345"},
+    {"email": "abc12@gmail2.com", "password": "1245"},
+    {"email": "abc12@gmail3.com", "password": "1235"},
+    {"email": "abc12@gmail4.com", "password": "1234"}
+  ];
+//   List ss=[];
+  for (var a in StudentRecord) {
+    print(a);
+  }
 }
