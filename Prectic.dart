@@ -75,6 +75,12 @@ void main() {
     print("");
   }
 
+  print("--------------");
+  // become a steric=>1
+  //                 2 3
+  //                4 5 6
+  //               7 8 9 10   ?
+
   var count = 1;
   var row = 5;
   var b = " ";
