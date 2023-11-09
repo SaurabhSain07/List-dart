@@ -5,12 +5,18 @@ void main() {
   // var password = (stdin.readLineSync()!);
   // bool isLogin = false;
 
-  // List<Map> StudentRecord = [
-  //   {"email": "abc12@gmail1.com", "password": "12345"},
-  //   {"email": "abc12@gmail2.com", "password": "1245"},
-  //   {"email": "abc12@gmail3.com", "password": "1235"},
-  //   {"email": "abc12@gmail4.com", "password": "1234"}
-  // ];
+  //Homework Question
+
+  List<Map> StudentRecord = [
+    {"email": "abc12@gmail1.com", "password": "12345"},
+    {"email": "abc12@gmail2.com", "password": "1245"},
+    {"email": "abc12@gmail3.com", "password": "1235"},
+    {"email": "abc12@gmail4.com", "password": "1234"}
+  ];
+
+  for (var a in StudentRecord) {
+    print(a);
+  }
 
   // while (isLogin == false) {
   //   if (email == "xyz11@gmail.com" && password == "123456") {
