@@ -58,4 +58,35 @@ void main() {
     }
     print("");
   }
+
+  print("--------------");
+  // become a steric=>*
+  //                 * *
+  //                * * *
+  //               * * * *   ?
+
+  var rows = 5;
+  var a = " ";
+  for (var i = 1; i < rows; i++) {
+    stdout.write("${a * (rows - i)}");
+    for (var j = 1; j <= i; j++) {
+      stdout.write("* ");
+    }
+    print("");
+  }
+
+  var count = 1;
+  var row = 5;
+  var b = " ";
+  for (var i = 1; i < rows; i++) {
+    stdout.write("${b * (row - i)}");
+    for (var j = 1; j <= i; j++) {
+      stdout.write("${count++} ");
+    }
+    print("");
+  }
 }
+//     *
+//    **
+//   ***
+//  ****
