@@ -20,7 +20,7 @@ void main() {
 // ******
 
 ss() {
-  var row = 5;
+  var row = 3;
   var ram = " ";
   for (var i = row; i > 1; i--) {
     stdout.write("${ram * (row - i)}");
